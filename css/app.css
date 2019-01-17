@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-container {
@@ -13,19 +14,34 @@
   width: 70%;
   height: 100%;
   margin: 0 auto;
+  margin-bottom: 1px solid lightgrey;
 }
 
 .navbar-container .navbar .navbar-left {
   width: 50%;
   height: 100%;
-  background: yellow;
   float: left;
 }
 
 .navbar-container .navbar .navbar-right {
   width: 50%;
   height: 100%;
-  background: blue;
   float: left;
+  line-height: 70px;
+  text-align: right;
+}
+
+.navbar-container .navbar .navbar-right ul {
+  list-style: none;
+}
+
+.navbar-container .navbar .navbar-right ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar-container .navbar .navbar-right ul li a {
+  text-decoration: none;
+  color: black;
 }
 
