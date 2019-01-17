@@ -4,8 +4,28 @@
   box-sizing: border-box;
 }
 
-.container {
+.container-navbar {
   width: 100%;
   height: 70px;
+}
+
+.container-navbar .navbar {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container-navbar .navbar .navbar-left {
+  width: 50%;
+  height: 100%;
+  background: yellow;
+  float: left;
+}
+
+.container-navbar .navbar .navbar-right {
+  width: 50%;
+  height: 100%;
+  background: blue;
+  float: left;
 }
 
