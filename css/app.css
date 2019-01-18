@@ -14,7 +14,7 @@
   width: 70%;
   height: 100%;
   margin: 0 auto;
-  margin-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 .navbar-container .navbar .navbar-left {
@@ -45,14 +45,23 @@
   margin: 0 10px;
 }
 
-.navbar-container .navbar .navbar-right ul li .sign-up {
-  border: 1px solid red;
-  border-radius: 10px;
-  padding: 10px;
-}
-
 .navbar-container .navbar .navbar-right ul li a {
   text-decoration: none;
   color: black;
+}
+
+.navbar-container .navbar .navbar-right ul li a:hover {
+  color: blue;
+}
+
+.navbar-container .navbar .navbar-right ul li a.sign-up {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.navbar-container .navbar .navbar-right ul li a.sign-up:hover {
+  color: white;
+  background: blue;
 }
 
