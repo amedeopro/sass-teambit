@@ -23,6 +23,11 @@
   float: left;
 }
 
+.navbar-container .navbar .navbar-left img {
+  height: 60px;
+  margin-top: 5px;
+}
+
 .navbar-container .navbar .navbar-right {
   width: 50%;
   height: 100%;
