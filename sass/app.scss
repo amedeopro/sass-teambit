@@ -1,5 +1,5 @@
 @import "common";
-
+@import "mixin";
 
 // my partials
 @import "partials/_header.scss";
@@ -13,5 +13,13 @@
     height: 100%;
     margin: 0 auto;
     background: red;
+    .jumbo-left{
+      @include widthheight;
+      background: yellow;
+    }
+    .jumbo-right{
+      @include widthheight;
+      background: lightgrey;
+    }
   }
 }

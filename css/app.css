@@ -78,3 +78,17 @@
   background: red;
 }
 
+.jumbo-container .jumbo .jumbo-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: yellow;
+}
+
+.jumbo-container .jumbo .jumbo-right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: lightgrey;
+}
+
